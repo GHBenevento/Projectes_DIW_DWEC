@@ -38,29 +38,31 @@ ul#menu li {
 }
 
 div {
-    display:block;
-    position: relative;
+    display:inline-block;
+    position:relative;
     border: 2px solid green;
+    height: 355px;
+    width: 1000px;
     top: 140px;
     left: 50px;
 }
 
 div>h1 {
-    position: relative;
-    top: -30px;
-    left: 150px;
+    position: static;
+    top: -100px;
+    left: 450px;
     color: white;
     font-size: 2em;
 }
 
 
 #scissors{
-position: sticky;
-
-left: -30px
+    position: absolute;
+    left: 310px;
 }
 
 #model{
     position: relative;
     top: 0px;
+    height: 350px;
     }
